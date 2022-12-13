@@ -35,7 +35,7 @@ public class Main extends AppCompatActivity {
         NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
         NavigationUI.setupWithNavController(binding.navView, navController);
 
-        findViewById(R.id.sign_in_login).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.watch).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(getApplicationContext(),Menu.class));

@@ -36,16 +36,10 @@ public class Login extends AppCompatActivity {
                 startActivity(new Intent(getApplicationContext(),OnBoarding.class));
             }
         });
-//        findViewById(R.id.sign_in_login).setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                startActivity(new Intent(getApplicationContext(),Main.class));
-//            }
-//        });
 
-//        if(getLogin().length() > 1) {
-//            email.setText(getLogin());
-//        }
+        if(getLogin().length() > 1) {
+            email.setText(getLogin());
+        }
 
         findViewById(R.id.sign_in_login).setOnClickListener(new View.OnClickListener() {
             @Override
@@ -58,16 +52,8 @@ public class Login extends AppCompatActivity {
                     Toast.makeText(Login.this, "Данные введены неверно", Toast.LENGTH_SHORT).show();
                 }
             }
-//            public void onClick(View view) {
-//                startActivity(new Intent(getApplicationContext(), Main.class));
-//            }
+
         });
-//        findViewById(R.id.Profile_login).setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                startActivity(new Intent(getApplicationContext(), OnBoarding.class));
-//            }
-//        });
     }
     private void signRequest(LoginModel loginModel) {
         NetworkServices.getInstance().getJSONApi().login(loginModel).enqueue(new Callback<LoginResponse>() {

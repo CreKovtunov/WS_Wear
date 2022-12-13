@@ -24,6 +24,7 @@
             android:layout_height="20dp"
             android:background="@drawable/button_background"
             android:text="Зарегистрироваться"
+            android:textAlignment="center"
             android:textAllCaps="false"
             android:textColor="#FFFFFF"
             android:textSize="12sp"
@@ -32,7 +33,7 @@
             app:layout_constraintHorizontal_bias="0.506"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.826" />
+            app:layout_constraintVertical_bias="0.83" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/after_acc"
@@ -40,6 +41,7 @@
             android:layout_height="20dp"
             android:background="@drawable/button_background_emty"
             android:text="У меня уже есть аккаунт"
+            android:textAlignment="center"
             android:textAllCaps="false"
             android:textColor="#EF3A01"
             android:textSize="12sp"
@@ -48,7 +50,7 @@
             app:layout_constraintHorizontal_bias="0.48"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.922" />
+            app:layout_constraintVertical_bias="0.95" />
 
         <EditText
             android:id="@+id/Name"
@@ -58,6 +60,7 @@
             android:ems="10"
             android:hint="Имя"
             android:textColor="#AFAFAF"
+            android:textSize="15sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.48"
@@ -73,12 +76,13 @@
             android:ems="10"
             android:hint="Фамилия"
             android:textColor="#AFAFAF"
+            android:textSize="15sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.48"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.391" />
+            app:layout_constraintVertical_bias="0.37" />
 
         <EditText
             android:id="@+id/editTextTextEmailAddress"
@@ -89,12 +93,13 @@
             android:hint="E-mail"
             android:inputType="textEmailAddress"
             android:textColor="#AFAFAF"
+            android:textSize="15sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.48"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.497" />
+            app:layout_constraintVertical_bias="0.48000002" />
 
         <EditText
             android:id="@+id/editTextTextPassword"
@@ -104,6 +109,7 @@
             android:ems="10"
             android:hint="Пароль"
             android:textColor="#AFAFAF"
+            android:textSize="15sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.48"
@@ -119,12 +125,13 @@
             android:ems="10"
             android:hint="Повторите пароль"
             android:textColor="#AFAFAF"
+            android:textSize="15sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.48"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.729" />
+            app:layout_constraintVertical_bias="0.71000004" />
 
         <ImageView
             android:id="@+id/imageView3"
